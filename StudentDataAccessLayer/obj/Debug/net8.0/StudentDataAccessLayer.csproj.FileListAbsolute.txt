@@ -1,0 +1,36 @@
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.deps.json
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfo.cs
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.deps.json
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfo.cs
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.deps.json
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfo.cs
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll

@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h3 {
+    color: #4a90e2;
+}
+
+/* Form Section */
+.form-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-gr input {
+    margin: 0 10px 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#dropdown {
+    margin: 6px 0;
+    height: 25px;
+    width: 140px;
+}
+
+fieldset
+{
+    margin: 15px 0;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4a90e2;
+    margin-right: 5px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Table Section */
+.table-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    table th, table td {
+        text-align: left;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+    .btn-primary:hover {
+        background-color: #357abd;
+    }
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+    .btn-danger:hover {
+        background-color: #c0392b;
+    }

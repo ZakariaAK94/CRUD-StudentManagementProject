@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "r2NjZG1gyqZ+X62KnrVpf9k3O083lPY+nWL6TZlwy18=",
+  "Source": "StudentManagementProject.Server",
+  "BasePath": "_content/StudentManagementProject.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

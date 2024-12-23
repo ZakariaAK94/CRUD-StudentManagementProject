@@ -1,0 +1,45 @@
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.deps.json
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.pdb
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.csproj.AssemblyReference.cache
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.AssemblyInfoInputs.cache
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.AssemblyInfo.cs
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.csproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentA.6CEB7365.Up2Date
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\refint\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.pdb
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\ref\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.deps.json
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.pdb
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.csproj.AssemblyReference.cache
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.AssemblyInfoInputs.cache
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.AssemblyInfo.cs
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.csproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentA.6CEB7365.Up2Date
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\refint\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.pdb
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\StudentAPIBusinessLayer1\obj\Debug\net8.0\ref\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.deps.json
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentAPIBusinessLayer1.pdb
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.csproj.AssemblyReference.cache
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.AssemblyInfoInputs.cache
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.AssemblyInfo.cs
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.csproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentA.6CEB7365.Up2Date
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\refint\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.pdb
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\ref\StudentAPIBusinessLayer1.dll

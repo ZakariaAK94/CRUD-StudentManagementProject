@@ -1,0 +1,2 @@
+C:\Users\AKILZA\Desktop\StudentManagementProject\rankingapp.client\obj\Debug\StudentManagementProject.client.esproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentManagementProject.client\obj\Debug\StudentManagementProject.client.esproj.CoreCompileInputs.cache

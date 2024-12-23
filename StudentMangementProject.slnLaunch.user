@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "StudentManagementProject.client\\StudentManagementProject.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "StudentManagementProject.Server\\StudentManagementProject.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

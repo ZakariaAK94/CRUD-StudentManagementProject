@@ -1,0 +1,4 @@
+C:\Users\AKILZA\source\repos\RankingApp\rankingapp.client\obj\Debug\rankingapp.client.esproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\React project\RankingApp\rankingapp.client\obj\Debug\rankingapp.client.esproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\ASP NER core and React\RankingApp Test\rankingapp.client\obj\Debug\rankingapp.client.esproj.CoreCompileInputs.cache
+C:\Users\AKILZA\Desktop\ASP NET core and React\RankingApp Test\rankingapp.client\obj\Debug\rankingapp.client.esproj.CoreCompileInputs.cache
