@@ -4,11 +4,13 @@
     "Projects": [
       {
         "Name": "StudentManagementProject.client\\StudentManagementProject.client.esproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": ""
       },
       {
         "Name": "StudentManagementProject.Server\\StudentManagementProject.Server.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": ""
       }
     ]
   }

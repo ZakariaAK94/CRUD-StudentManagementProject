@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import StudentsTable from './Components/StudentsTable';
 import FormData from './Components/FormData';
+import Header from './Components/Header';
 
 const App = () => {
     const API_URL = "https://localhost:7145/api/StudentsAPI";
@@ -11,21 +12,54 @@ const App = () => {
     const [newStudent, setNewStudent] = useState({ name: '', age: '', grade: '', gender: '', nationality: '' });
     const [editStudent, setEditStudent] = useState(null);
 
-    useEffect(() => {
+    const [average, setAverage] = useState(null);
 
-        fetch(`${API_URL}/AllStudents`)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`Error: ${response.statusText}`);
-                }
-                return response.json();
-            })
-            .then(data => setStudents(data))
-            .catch(error => console.error("Error fetching students:", error))
-    }, []);
+    const [loading, setLoading] = useState(false);
 
+    
+    //useEffect(() => {
+    //    fetch(`${API_URL}/AllStudents`)
+    //        .then(response => {
+    //            if (!response.ok) {
+    //                throw new Error(`Error: ${response.statusText}`);
+    //            }
+    //            return response.json();
+    //        })
+    //        .then(data => setStudents(data))
+    //        .catch(error => console.error("Error fetching students:", error))
+    //}, [])
+
+    ////get Average
+    //useEffect(() => {
+    //    fetch(`${API_URL}/Average`)
+    //        .then(response => response.json())
+    //        .then(data => setAverage(data))
+    //        .catch(error => alert("Error fetching average:", error));
+    //}, []);
 
     // Add Student
+
+
+    useEffect(() => {
+        const fetchData = async () => {
+            setLoading(true); // Start loading
+            try {
+                const studentsResponse = await fetch(`${API_URL}/AllStudents`);
+                const studentsData = await studentsResponse.json();
+                setStudents(studentsData);
+
+                const averageResponse = await fetch(`${API_URL}/Average`);
+                const averageData = await averageResponse.json();
+                setAverage(averageData); // Add a state for the average
+            } catch (error) {
+                alert("Error fetching data: ", error);
+            } finally {
+                setLoading(false); // end loading
+            }
+        };
+        fetchData();
+    }, []);
+
     const handleAddStudent = (newStudent) => {
         fetch(API_URL, {
             method: "POST",
@@ -64,6 +98,7 @@ const App = () => {
             })
             .catch(error => console.error("Error deleting student:", error));
     };
+
     function addOrUpdateStudent(formData) {
 
         if (editStudent) {
@@ -75,14 +110,20 @@ const App = () => {
     }
 
     return (
+        <>
+            <Header />
+            <div className="container">
+                {loading ? <div className="spinner"></div>
+                    : <div className="main">
+                        <FormData editStudent={editStudent} addOrUpdateStudent={addOrUpdateStudent} />
+                        <StudentsTable students={students} average={average} setEditStudent={setEditStudent} handleDeleteStudent={handleDeleteStudent} />
 
-        <div className="container">
-            <div className="main">
-                <FormData editStudent={editStudent} addOrUpdateStudent={addOrUpdateStudent} />
-                <StudentsTable students={students} setEditStudent={setEditStudent} handleDeleteStudent={handleDeleteStudent} />
-
+                    </div>
+                }
             </div>
-        </div>
+
+        </>
+        
 
     );
 };

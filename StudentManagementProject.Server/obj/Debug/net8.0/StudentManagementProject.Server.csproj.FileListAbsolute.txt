@@ -360,3 +360,4 @@ C:\Users\AKILZA\Desktop\StudentManagementProject\StudentManagementProject.Server
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentManagementProject.Server\obj\Debug\net8.0\StudentManagementProject.Server.pdb
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentManagementProject.Server\obj\Debug\net8.0\StudentManagementProject.Server.genruntimeconfig.cache
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentManagementProject.Server\obj\Debug\net8.0\ref\StudentManagementProject.Server.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentManagementProject.Server\obj\Debug\net8.0\StudentManagementProject.Server.sourcelink.json

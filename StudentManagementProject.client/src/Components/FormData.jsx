@@ -1,29 +1,43 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
-
 import nationalities from '../nationalities';
 import PropTypes from 'prop-types';
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
 export default function FormData({ editStudent, addOrUpdateStudent }) {
+
+
     const [formData, setFormData] = useState({
-        name: editStudent?.name || "",
-        age: editStudent?.age || "",
-        grade: editStudent?.grade || "",
-        gender: editStudent?.gender || 1, // default to Male
-        nationality: editStudent?.nationality || ""
+        name: "",
+        age: "",
+        grade: "",
+        gender: 1, // default to Male
+        nationality: ""
     });
-    console.log(editStudent?.gender || formData.gender)
+
+    const genders = [
+        {label:"Male", value: 1},
+        {label:"Female", value: 0},
+    ]
+    useEffect(() => {
+        if (editStudent)
+            setFormData(editStudent)
+    },[editStudent])
 
     const handleChange = (e) => {
         const { name, value } = e.target;
 
-        setFormData(prevData => ({ ...prevData, [name]: (name === "gender" ? parseInt(value) : value) }))
+        setFormData(prevData =>
+            ({
+                ...prevData,
+                [name]: ["age", "grade", "gender"].includes(name) ? Number(value) : value
+            })
+        )
 
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
         addOrUpdateStudent(formData);
+        setFormData({ name: "", age: "", grade: "", gender: 1, nationality: "" }); // Reset state
     }
 
     return (
@@ -38,8 +52,10 @@ export default function FormData({ editStudent, addOrUpdateStudent }) {
                     name="name"
                     value={formData.name}
                     required
-                    placeholder={editStudent ? editStudent.name : "Enter Name"}
+                    placeholder="Enter the name"
+                    aria-label="Student name"
                     onChange={handleChange}
+
                 />
                 <label htmlFor="age">Age:</label>
                 <input
@@ -48,7 +64,8 @@ export default function FormData({ editStudent, addOrUpdateStudent }) {
                     name="age"
                     value={formData.age}
                     required
-                    placeholder={editStudent ? editStudent.age : "Enter Age"}
+                    placeholder="Enter the age"
+                    aria-label="Student age"
                     onChange={handleChange}
                 />
                 <label htmlFor="grade">Grade:</label>
@@ -58,45 +75,39 @@ export default function FormData({ editStudent, addOrUpdateStudent }) {
                     name="grade"
                     value={formData.grade}
                     required
-                    placeholder={editStudent ? editStudent.grade : "Enter Grade"}
+                    placeholder="Enter the grade"
+                    aria-label="Student grade"
                     onChange={handleChange}
                 />
                 <div className="radio-group">
                     <fieldset >
                         <legend>Gender:</legend>
-                        <label>
-                            <input
-                                type="radio"
-                                name="gender"
-                                value="1"
-                                checked={editStudent ? editStudent.gender === 1 : formData.gender === 1}
-                                onChange={handleChange}
-                            />
-                            Male
-                        </label>
-                        <label>
-                            <input
-                                type="radio"
-                                name="gender"
-                                value="0"
-                                checked={editStudent ? editStudent.gender === 0 : formData.gender === 0}
-                                onChange={handleChange}
-                            />
-                            Female
-                        </label>
+                        {genders.map(g =>
+                        (
+                            <label key={g.label}>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value={g.value}
+                                    checked={formData.gender === g.value}
+                                    onChange={handleChange}
+                                />
+                                {g.label}
+                            </label>
+                        )) }
                     </fieldset>
                     <fieldset>
                         <legend>Nationality:</legend>
                         <select
                             id="nationality"
                             name="nationality"
-                            value={editStudent ? editStudent.nationality : formData.nationality}
+                            value={formData.nationality}   
                             onChange={handleChange}
                             required
                         >
                             <option value="">Select Nationality</option>
-                            {nationalities.map((nat) => (
-                                <option key={nat.id} value={nat.name}>
+                            {(nationalities || []).map((nat) => (
+                                <option key={nat.id} >
                                     {nat.name}
                                 </option>
                             ))}
@@ -115,8 +126,8 @@ FormData.propTypes = {
     editStudent: PropTypes.shape(
         {
             name: PropTypes.string,
-            age: PropTypes.number,
-            grade: PropTypes.number,
+            age: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+            grade: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
             gender: PropTypes.oneOf([0, 1]),
             nationality: PropTypes.string,
         }),

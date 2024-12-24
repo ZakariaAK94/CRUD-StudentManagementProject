@@ -2,9 +2,27 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     background-color: #f4f4f9;
     color: #333;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    height: 80px;
+    background-color: deepskyblue;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+header > img {
+    width: 50px;
+}
+
+header > h1 {
+    font-weight: 400;
+    color: white;
 }
 
 .container {
@@ -68,6 +86,33 @@ button:hover {
 }
 
 /* Table Section */
+.info-table {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-block: 20px;
+    color: #4a90e2;
+    gap: 20px;
+}
+
+.info-table-span{
+    margin-right: 50px;
+    font-weight:bold
+}
+
+#search-by-select {
+    height: 1.25rem;
+    width: fit-content;
+    margin-right: 20px;
+}
+
+#search-by-input {
+    height: 1.25rem;
+    width: 120px;
+    margin-right:20px;
+}
+
 .table-section {
     background: #ffffff;
     padding: 20px;
@@ -80,16 +125,16 @@ table {
     border-collapse: collapse;
 }
 
-    table th, table td {
-        text-align: left;
-        padding: 10px;
-        border-bottom: 1px solid #ddd;
-    }
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
 
-    table th {
-        background-color: #f4f4f4;
-        font-weight: bold;
-    }
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
 
 .btn {
     padding: 5px 10px;
@@ -103,15 +148,51 @@ table {
     color: #ffffff;
 }
 
-    .btn-primary:hover {
-        background-color: #357abd;
-    }
+.btn-primary:hover {
+    background-color: #357abd;
+}
 
 .btn-danger {
     background-color: #e74c3c;
     color: #ffffff;
 }
 
-    .btn-danger:hover {
-        background-color: #c0392b;
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.spinner {
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
     }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 860px) {
+    .input-gr {
+        display:flex;
+        flex-direction:column;
+        
+    }
+
+    .input-gr > input {
+       margin: 0 0 15px 0;
+    }
+
+    .info-table {
+        flex-direction:column;
+    }
+}

@@ -34,3 +34,4 @@ C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debu
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.sourcelink.json

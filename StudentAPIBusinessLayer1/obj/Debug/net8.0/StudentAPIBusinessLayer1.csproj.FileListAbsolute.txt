@@ -43,3 +43,4 @@ C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\De
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\refint\StudentAPIBusinessLayer1.dll
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.pdb
 C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\ref\StudentAPIBusinessLayer1.dll
+C:\Users\AKILZA\Desktop\StudentManagementProject\StudentAPIBusinessLayer1\obj\Debug\net8.0\StudentAPIBusinessLayer1.sourcelink.json
