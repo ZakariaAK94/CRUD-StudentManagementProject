@@ -46,8 +46,6 @@ export default function StudentsTable(props) {
 
     }, [inputValue])
 
-   
-
     return (
         <div className="table-section">
             <div className="info-table">
@@ -64,10 +62,10 @@ export default function StudentsTable(props) {
                             onChange={handleChange}
                             required
                         >
-                            <option value="">--</option>                            
+                            <option value="">All</option>                            
                             <option key="id" value="id">Id</option>
                             <option key="name" value="name">Name</option>
-                            <option key="name" value="gender">Gender</option>
+                            <option key="gender" value="gender">Gender</option>
                             <option key="nationality" value="nationality">Nationality</option>
                             <option key="passedStudent" value="passedStudent">PassedStudent</option>
                         </select>
@@ -107,8 +105,8 @@ export default function StudentsTable(props) {
                             <td>
                                 <button
                                     className="btn btn-primary btn-sm"
-                                    onClick={() => props.setEditStudent(student)}
-                                >
+                                    onClick={()=> props.handleEditStudent(student)}
+                                 >
                                     Edit
                                 </button>
                                 <button

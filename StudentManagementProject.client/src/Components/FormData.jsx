@@ -1,10 +1,10 @@
+/* eslint-disable react/prop-types */
 import nationalities from '../nationalities';
 import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 
-export default function FormData({ editStudent, addOrUpdateStudent }) {
-
-
+export default function FormData({ editStudent, addOrUpdateStudent })
+{    
     const [formData, setFormData] = useState({
         name: "",
         age: "",
@@ -54,7 +54,7 @@ export default function FormData({ editStudent, addOrUpdateStudent }) {
                     required
                     placeholder="Enter the name"
                     aria-label="Student name"
-                    onChange={handleChange}
+                    onChange={handleChange}                  
 
                 />
                 <label htmlFor="age">Age:</label>
@@ -71,6 +71,7 @@ export default function FormData({ editStudent, addOrUpdateStudent }) {
                 <label htmlFor="grade">Grade:</label>
                 <input
                     id="grade"
+                    key="grade"
                     type="number"
                     name="grade"
                     value={formData.grade}
@@ -87,6 +88,7 @@ export default function FormData({ editStudent, addOrUpdateStudent }) {
                             <label key={g.label}>
                                 <input
                                     type="radio"
+                                    key={g.label}
                                     name="gender" // Male or Female
                                     value={g.value} // 1 or 0
                                     checked={formData.gender === g.value}
